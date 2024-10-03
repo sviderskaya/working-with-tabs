@@ -1,5 +1,6 @@
 import { test, expect, chromium, firefox } from "@playwright/test"
 
+// old tests
 test("swith betweet tabs", async ({ page }) => {
     let pageContext = await page.context()
 
